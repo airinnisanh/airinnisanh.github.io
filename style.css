@@ -1,1 +1,63 @@
-Hello world!
+html, body {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#web-header {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+}
+
+h1 {
+   font-size: 25px;
+}
+
+#header-contents {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-summary {
+    justify-content: flex-start;
+    display: flex;
+    margin: 0%;
+}
+
+
+#navigation {
+    margin-left: 2vw;
+    width: 23%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icons {
+    margin-left: 10px;
+
+}
+
+h2 {
+    margin: 0px;
+    align-items: top;
+    font-size: medium;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+#avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.icons {
+    width: 20px;
+}
+
+#loginForm {
+    padding: 20px;
+}
+
