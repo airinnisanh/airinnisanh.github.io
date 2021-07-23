@@ -1,5 +1,4 @@
 html, body {
-    margin-top: 1vh;
     margin-left: 2vw;
     margin-right: 2vw;
     background-color: #151515;
@@ -7,14 +6,14 @@ html, body {
 
 
 #web-header {
-    background-image: linear-gradient(to top, rgba(255,0,0,0), #151515);
-    margin: 1%;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), #151515, #151515, #151515, #151515);  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     top: 0;
     width: 93%;
-    position: fixed;
+    position: sticky;
+    position: -webkit-sticky;
 }   
 
 #logo {
@@ -34,36 +33,40 @@ nav {
 }
 
 #opening {
-    position: relative;
-   
+    top: 10vh;
 }
 #img-opening {
     width: 23vw;
     margin-top: 10vh;
     margin-left: 20vw;
 }
+#opening-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 50%;
+}
 h1 {
    font-size: 13vh;
    color: whitesmoke;
-   position: absolute;
-   top: 20%;
-   left: 40%;
    letter-spacing: 1vh;
    font-family: 'Playfair Display', serif;
+   margin: 0;
 }
 
+
 h2 {
-    width: 40%;
-    margin: 0px;
+    margin-top: 0;
+    padding-left: 10vh;
     align-items: top;
     font-family: 'Playfair Display', serif;
     font-size: 2.5vh;
     font-style: normal;
     font-weight: lighter;
     color: whitesmoke;
-    position: absolute;
-    top: 51%;
-    left: 43%;
+   
 }
 
 #aboutme {
@@ -77,11 +80,16 @@ h2 {
     position: relative;
     left: 5vw;
 }
+#about-me-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 50%;
+}
 
 h3 {
-    position: absolute;
-    top: 7%;
-    left: 25%;
     text-decoration: none;
     font-weight: normal;
     font-size: 7vh;
@@ -89,8 +97,6 @@ h3 {
 }
 
 #about-me-paragraph {
-    width: 40%;
-    position: absolute;
     top: 30%;
     left: 33%;
 
